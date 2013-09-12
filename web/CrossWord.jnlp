@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jnlp PUBLIC "-//Sun Microsystems, Inc.//DTD JNLP 1.5//EN" "http://www.netbeans.org/jnlp/DTD/jnlp.dtd">
+<jnlp codebase="$$codebase" href="CrossWord.jnlp">
+  <information>
+    <title>CrossWord</title>
+    <vendor>Andrzej Duś</vendor>
+    <homepage href="http://gogoad.wikidot.org"/>
+    <description> </description>
+    <icon href="default"/>
+    <offline-allowed/>
+    <shortcut online="true"/>
+  </information>
+  <resources locale="" os="">
+    <j2se href="http://java.sun.com/products/autodl/j2se" version="1.5+"/>
+  </resources>
+  <resources>
+    <jar download="eager" href="dist/CrossWord.jar" main="false"/>
+  </resources>
+  <resources locale="" os="">
+    <jar download="eager" href="dist/lib/swing-layout-1.0.jar" main="false" version=""/>
+  </resources>
+  <application-desc main-class="main.Main"/>
+</jnlp>
